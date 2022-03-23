@@ -210,7 +210,7 @@ The following commands are supported for the profile fetch operation:
 | Command                         | Description                                                                                                              |
 |---------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | `com.okta.action.update`         | Specify the result of the operation, either success or one of the causes of failure. |
-| com.okta.appUser.profile.update | When profile fetch succeeds, this command ontains the current profile for the user. |
+| `com.okta.appUser.profile.update` | When profile fetch succeeds, this command contains the current profile for the user. |
 
 ##### com.okta.action.update
 ###### value
