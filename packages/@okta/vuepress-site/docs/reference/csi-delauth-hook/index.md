@@ -15,7 +15,7 @@ This page provides reference documentation for:
 
 This information is specific to the Custom Source Integration Delegated Authentication Inline Hook, one type of Inline Hook supported by Okta.
 
-## See Also
+## See also
 
 For a general introduction to Okta Inline Hooks, see [Inline Hooks](/docs/concepts/inline-hooks/).
 
@@ -57,8 +57,7 @@ Provides two name-value pairs, one for identifying the subject user to authentic
 
 The current default action that Okta takes if your external service sends an empty HTTP 204 response. You can override the default action by returning a `commands` object in your response specifying the action to take.
 
-
-### Objects in Response You Send
+### Objects in the response you send
 
 The `commands` and `error` objects that you can return in the JSON payload of your response are defined as follows:
 
@@ -71,14 +70,13 @@ The `commands` object is where you can provide commands to Okta. It is an array,
 | type     | One of the [supported commands](#supported-commands) | String          |
 | value    | The parameter to pass to the command                  | [value](#value) |
 
-##### Supported Commands
+##### Supported commands
 
 The following command is supported for the delegated authentication request:
 
 | Command                         | Description                                                                                                              |
 |---------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | `com.okta.action.update`          | Specify the result of the authentication, either success or one of the causes of failure. |
-
 
 ##### value
 
@@ -123,11 +121,11 @@ When you return an error object, it should contain an `errorSummary` sub-object:
 
 | Property     | Description                          | Data Type |
 |--------------|--------------------------------------|-----------|
-| errorSummary | Human-readable summary of the error. | String    |
+| errorSummary | Human-readable summary of the error  | String    |
 
 Returning an error object will cause Okta to record a failure event in the Okta System Log. The string you supplied in the `errorSummary` property of the `error` object will be recorded in the System Log event.
 
-### Sample JSON Payload of Request from Okta to Your External Service
+### Sample JSON payload of request from Okta to your external service
 
 ```json
 {
@@ -161,7 +159,7 @@ Returning an error object will cause Okta to record a failure event in the Okta 
 }
 ```
 
-### Sample JSON Payloads of Responses from Your External Service to Okta
+### Sample JSON payloads of responses from your external service to Okta
 
 ```json
 {
@@ -190,7 +188,7 @@ The outbound call from Okta to your external service includes the following obje
 
 The current default action that Okta takes if your external service sends an empty HTTP 204 response. You can override the default action by returning a `commands` object in your response specifying the action to take.
 
-### Objects in Response You Send
+### Objects in the response you send
 
 The `commands` and `error` objects that you can return in the JSON payload of your response are defined as follows:
 
@@ -203,7 +201,7 @@ The `commands` object is where you can provide commands to Okta. It is an array,
 | type     | One of the [supported commands](#supported-commands) | String          |
 | value    | The parameter to pass to the command                | [value](#value) |
 
-##### Supported Commands
+##### Supported commands
 
 The following commands are supported for the profile fetch operation:
 
@@ -277,7 +275,7 @@ For the `com.okta.appUser.profile.update` command, `value` should be an object c
         "family_name": "Brock",
         "email": "isaac.brock@test.com",
         "address.street_address": "123 45TH St",
-        "lastUpdate": "token_for_update"
+        "lastUpdate": "token_for_update",
         "status": "ACTIVE"
       }
     }
@@ -293,7 +291,7 @@ When you return an error object, it should contain an `errorSummary` sub-object:
 
 Returning an error object will cause Okta to record a failure event in the Okta System Log. The string you supplied in the `errorSummary` property of the `error` object will be recorded in the System Log event.
 
-### Sample JSON Payload of Request from Okta to Your External Service
+### Sample JSON payload of request from Okta to your external service
 
 ```json
 {
@@ -326,7 +324,7 @@ Returning an error object will cause Okta to record a failure event in the Okta 
 }
 ```
 
-### Sample JSON Payloads of Responses from Your External Service to Okta
+### Sample JSON payloads of responses from your external service to Okta
 
 ```json
 {
@@ -361,14 +359,13 @@ Returning an error object will cause Okta to record a failure event in the Okta 
         "family_name": "Brock",
         "email": "isaac.brock@test.com",
         "address.street_address": "123 45TH St",
-        "lastUpdate": "token_for_update"
+        "lastUpdate": "token_for_update",
         "status": "ACTIVE"
       }
     }
   ]
 }
 ```
-
 
 ## Delegated authentication with profile fetch request
 
@@ -388,7 +385,7 @@ Provides two name-value pairs, one for identifying the subject user to authentic
 
 The current default action that Okta takes if your external service sends an empty HTTP 204 response. You can override the default action by returning a `commands` object in your response specifying the action to take.
 
-### Objects in Response You Send
+### Objects in the response you send
 
 The `commands` and `error` objects that you can return in the JSON payload of your response are defined as follows:
 
@@ -401,7 +398,7 @@ The `commands` object is where you can provide commands to Okta. It is an array,
 | type     | One of the [supported commands](#supported-commands) | String          |
 | value    | The parameter to pass to the command                 | [value](#value) |
 
-##### Supported Commands
+##### Supported commands
 
 The following commands are supported for the Custom Source Integration Delegated Authentication Inline Hook type:
 
@@ -461,7 +458,7 @@ When you return an error object, it should contain an `errorSummary` sub-object:
 
 Returning an error object will cause Okta to record a failure event in the Okta System Log. The string you supplied in the `errorSummary` property of the `error` object will be recorded in the System Log event.
 
-### Sample JSON Payload of Request from Okta to Your External Service
+### Sample JSON payload of the request from Okta to your external service
 
 ```json
 {
@@ -495,7 +492,7 @@ Returning an error object will cause Okta to record a failure event in the Okta 
 }
 ```
 
-### Sample JSON Payloads of Responses from Your External Service to Okta
+### Sample JSON payloads of the responses from your external service to Okta
 
 ```json
 {
@@ -537,5 +534,3 @@ Returning an error object will cause Okta to record a failure event in the Okta 
   ]
 }
 ```
-
-
