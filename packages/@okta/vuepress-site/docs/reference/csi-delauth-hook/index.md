@@ -77,7 +77,7 @@ The following command is supported for the delegated authentication request:
 
 | Command                         | Description                                                                                                              |
 |---------------------------------|--------------------------------------------------------------------------------------------------------------------------|
-| com.okta.action.update          | Specify the result of the authentication, either success or one of the causes of failure. |
+| `com.okta.action.update`          | Specify the result of the authentication, either success or one of the causes of failure. |
 
 
 ##### value
