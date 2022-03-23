@@ -438,7 +438,7 @@ For example to indicate that the user authenticates successfully and the profile
 }
 ```
 
-Another example for the situation when the user account fails authentication due to account being disabled:
+Another example for the situation when the user account fails authentication due to the account being disabled:
 
 ```json
 {
