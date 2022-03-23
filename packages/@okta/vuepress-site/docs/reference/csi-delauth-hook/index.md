@@ -416,7 +416,7 @@ For the `com.okta.action.update` command, `value` should be an object containing
 
 - `UNVERIFIED`: The user fails to authenticate due to invalid credential
 - `ACCOUNT_LOCKED`: The user account is locked
-- `ACCOUNTOUN_DISABLED`: The user account is disabled
+- `ACCOUNT_DISABLED`: The user account is disabled
 - `PASSWORD_EXPIRED`: The user password has expired
 - `UNKNOWN_USER`: The user does not exist in the source
 
