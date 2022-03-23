@@ -29,7 +29,7 @@ The hook supports a few operations. It first allows you to import a user into Ok
 
 Each of these operations corresponds to an individual inline hook invocation, and each corresponding request is tagged with a `requestType` property in the request headers.
 
-The following sections describes each of these operations about the objects in their requests and responses.
+The following sections describe each of these operations and the objects in their requests and responses.
 
 ## User attributes
 
