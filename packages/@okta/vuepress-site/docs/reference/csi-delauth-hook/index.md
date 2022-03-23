@@ -159,7 +159,7 @@ Returning an error object will cause Okta to record a failure event in the Okta 
 }
 ```
 
-### Sample JSON payloads of responses from your external service to Okta
+### Sample JSON payloads of the responses from your external service to Okta
 
 ```json
 {
@@ -324,7 +324,7 @@ Returning an error object will cause Okta to record a failure event in the Okta 
 }
 ```
 
-### Sample JSON payloads of responses from your external service to Okta
+### Sample JSON payloads of the responses from your external service to Okta
 
 ```json
 {
