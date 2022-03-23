@@ -457,7 +457,7 @@ When you return an error object, it should contain an `errorSummary` sub-object:
 
 | Property     | Description                          | Data Type |
 |--------------|--------------------------------------|-----------|
-| errorSummary | Human-readable summary of the error. | String    |
+| errorSummary | Human-readable summary of the error | String    |
 
 Returning an error object will cause Okta to record a failure event in the Okta System Log. The string you supplied in the `errorSummary` property of the `error` object will be recorded in the System Log event.
 
