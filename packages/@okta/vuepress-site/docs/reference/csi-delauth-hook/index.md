@@ -47,7 +47,7 @@ This type of request has the following `requestType`:
 
 ### Objects in the request from Okta
 
-The outbound call from Okta to your external service will include the following objects in its JSON payload:
+The outbound call from Okta to your external service includes the following objects in its JSON payload:
 
 #### data.context.credential
 
