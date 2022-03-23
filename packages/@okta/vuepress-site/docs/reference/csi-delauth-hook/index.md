@@ -422,7 +422,7 @@ For the `com.okta.action.update` command, `value` should be an object containing
 
 or an object containing a `appUser.profile` property set to one of the following values:
 
-- `FETCHED`: The user is authenticated successfully and profile is fetched successfully`
+- `FETCHED`: The user is authenticated successfully and the profile is fetched successfully`
 - `FAILED`: The operation failed and the detailed cause is in the error object
 
 For example to indicate that the user authenticates successfully and the profile is fetched successfully, you would return:
