@@ -425,7 +425,7 @@ or an object containing a `appUser.profile` property set to one of the following
 - `FETCHED`: The user is authenticated successfully and profile is fetched successfully`
 - `FAILED`: The operation failed and the detailed cause is in the error object
 
-For example to indicate that the user authenticats successfully and profile is fetched successfully, you would return:
+For example to indicate that the user authenticates successfully and the profile is fetched successfully, you would return:
 
 ```json
 {
