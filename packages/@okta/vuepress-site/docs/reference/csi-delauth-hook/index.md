@@ -91,7 +91,7 @@ The `value` object is the parameter to pass to the command. For the `com.okta.ac
 - `PASSWORD_EXPIRED`: The user password has expired
 - `UNKNOWN_USER`: The user does not exist in the source
 
-For example, to indicate the user authencates successfully you would return the following:
+For example, to indicate the user authenticates successfully, return the following:
 
 ```json
 {
