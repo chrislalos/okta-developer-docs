@@ -178,7 +178,7 @@ Returning an error object will cause Okta to record a failure event in the Okta 
 
 ## Profile fetch request
 
-This type of request has the following requestType:
+This type of request has the following `requestType`:
 
 - `profile.fetch`
 
