@@ -41,7 +41,7 @@ To support user lifecycle and credential lifecycle operations, we expect the ext
 
 ## Delegated authentication request
 
-This type of request has the following requestType:
+This type of request has the following `requestType`:
 
 - `user.authenticate`
 
