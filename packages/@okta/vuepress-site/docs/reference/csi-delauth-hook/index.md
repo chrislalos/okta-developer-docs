@@ -414,7 +414,7 @@ The following commands are supported for the Custom Source Integration Delegated
 
 For the `com.okta.action.update` command, `value` should be an object containing a `credential` property set to one of the following values:
 
-- `UNVERIFIED`: The user fails to authenticate due to invalid credential
+- `UNVERIFIED`: The user fails to authenticate due to invalid credentials
 - `ACCOUNT_LOCKED`: The user account is locked
 - `ACCOUNT_DISABLED`: The user account is disabled
 - `PASSWORD_EXPIRED`: The user password has expired
