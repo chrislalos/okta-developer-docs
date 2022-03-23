@@ -472,7 +472,7 @@ Returning an error object will cause Okta to record a failure event in the Okta 
   "contentType": "application/json",
   "cloudEventVersion": "0.1",
   "requestType": "user.authenticate.fetch",
-  "source": "https://${yourOktaDomain}/api/v1/inlineHooks/cal11h7VDs8LC4DAi0g4",
+  "source": "https://{yourOktaDomain}/api/v1/inlineHooks/cal11h7VDs8LC4DAi0g4",
   "data": {
     "context": {
       "request": {
