@@ -398,7 +398,7 @@ The `commands` object is where you can provide commands to Okta. It is an array,
 
 | Property | Description                                           | Data Type       |
 |----------|-------------------------------------------------------|-----------------|
-| type     | One of the [supported commands](#supported-commands). | String          |
+| type     | One of the [supported commands](#supported-commands) | String          |
 | value    | The parameter to pass to the command.                 | [value](#value) |
 
 ##### Supported Commands
