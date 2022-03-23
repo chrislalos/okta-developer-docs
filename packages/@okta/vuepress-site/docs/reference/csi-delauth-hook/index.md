@@ -23,7 +23,7 @@ For information on the API for registering external service endpoints with Okta,
 
 ## About
 
-The Custom Source Integration Delegated Authentication Inline Hook enables you to delegate authenticate a user by an external identity source.
+The Custom Source Integration Delegated Authentication Inline Hook enables you to delegate authentication of a user to an external identity source.
 
 The hook supports a few operations. It first allows you to bring a user into Okta after successful authentication. From there it allows delegated authentication of the user to the external source, and fetch latest profile for the user from the external source.
 
