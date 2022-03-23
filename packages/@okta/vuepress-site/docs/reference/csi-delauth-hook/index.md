@@ -27,7 +27,7 @@ The Custom Source Integration Delegated Authentication Inline Hook enables you t
 
 The hook supports a few operations. It first allows you to import a user into Okta after a successful authentication. From there it allows delegated authentication of the user to the external source, and fetches the latest profile of the user from the external source.
 
-Each of these operations corresponds to an individual inline hook invocation, and each corresponding request will be tagged with a requestType property in the request headers.
+Each of these operations corresponds to an individual inline hook invocation, and each corresponding request is tagged with a `requestType` property in the request headers.
 
 The following sections describes each of these operations about the objects in their requests and responses.
 
