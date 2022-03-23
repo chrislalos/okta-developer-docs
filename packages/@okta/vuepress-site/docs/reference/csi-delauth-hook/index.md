@@ -33,7 +33,7 @@ The following sections describe each of these operations and the objects in thei
 
 ## User attributes
 
-In oder to support user lifecycle and credential lifecycle, we expect the external source to provide certain attributes:
+To support user lifecycle and credential lifecycle operations, we expect the external source to provide certain attributes:
 
 - `status`: The status of the user, with value ACTIVE or DISABLED.
 - `passwordExpiryTime`: The time when the user's password will expire, in the form of Epoc time.
