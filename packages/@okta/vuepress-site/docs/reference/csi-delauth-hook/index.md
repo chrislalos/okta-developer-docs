@@ -43,7 +43,6 @@ To support user lifecycle and credential lifecycle operations, we expect the ext
 
 This type of request has the following `requestType`: `user.authenticate`
 
-- `user.authenticate`
 
 ### Objects in the request from Okta
 
