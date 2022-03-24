@@ -192,7 +192,7 @@ The `commands` and `error` objects that you can return in the JSON payload of yo
 
 #### commands
 
-The `commands` object is where you can provide commands to Okta. It is an array, allowing you to send multiple commands. Each array element needs to consist of the following name-value pair:
+The `commands` object is where you can provide commands to Okta. It's an array that allows you to send multiple commands. Each array element needs to consist of the following name-value pair:
 
 | Property | Description                                           | Data Type       |
 |----------|-------------------------------------------------------|-----------------|
