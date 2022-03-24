@@ -412,7 +412,7 @@ For the `com.okta.action.update` command, `value` should be an object that conta
 - `ACCOUNT_LOCKED`: The user account is locked.
 - `ACCOUNT_DISABLED`: The user account is disabled.
 - `PASSWORD_EXPIRED`: The user password is expired.
-- `UNKNOWN_USER`: The user does not exist in the source
+- `UNKNOWN_USER`: The user doesn't exist in the source.
 
 or an object containing an `appUser.profile` property set to one of the following values:
 
