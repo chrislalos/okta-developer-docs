@@ -79,7 +79,7 @@ The following command is supported for the delegated authentication request:
 
 ##### value
 
-The `value` object is the parameter to pass to the command. For the `com.okta.action.update` command, `value` should be an object containing a `credential` property set to one of the following values:
+The `value` object is the parameter to pass to the command. For the `com.okta.action.update` command, `value` should be an object that contains a `credential` property set to one of the following values:
 
 - `VERIFIED`: The user is authenticated successfully
 - `UNVERIFIED`: The user fails to authenticate due to invalid credentials
