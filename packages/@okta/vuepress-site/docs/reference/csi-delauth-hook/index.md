@@ -211,7 +211,7 @@ The following commands are supported for the profile fetch operation:
 ##### com.okta.action.update
 ###### value
 
-For the `com.okta.action.update` command, `value` should be an object containing an `appUser.profile` property set to one of the following values:
+For the `com.okta.action.update` command, `value` should be an object that contains an `appUser.profile` property set to one of the following values:
 
 - `FETCHED`: The user profile is fetched successfully
 - `UNKNOWN_USER`: The user does not exist in the source
