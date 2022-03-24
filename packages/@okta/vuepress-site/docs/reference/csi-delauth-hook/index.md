@@ -367,7 +367,7 @@ Returning an error object causes Okta to record a failure event in the Okta Syst
 
 ## Delegated authentication with profile fetch request
 
-This type of request has the following `requestType`:
+This type of request has the following `requestType`: `user.authenticate.fetch`
 
 - `user.authenticate.fetch`
 
