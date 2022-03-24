@@ -86,7 +86,7 @@ The `value` object is the parameter to pass to the command. For the `com.okta.ac
 - `ACCOUNT_LOCKED`: The user account is locked.
 - `ACCOUNT_DISABLED`: The user account is disabled.
 - `PASSWORD_EXPIRED`: The user password is expired.
-- `UNKNOWN_USER`: The user does not exist in the source
+- `UNKNOWN_USER`: The user doesn't exist in the source.
 
 For example, to indicate the user authenticates successfully, return the following:
 
