@@ -230,7 +230,7 @@ For example, to indicate that the profile is fetched successfully, you would ret
 }
 ```
 
-Another example for the situation when the specified user does not exist in the source you would return:
+Another example for the situation when the specified user doesn't exist in the source, you would return:
 
 ```json
 {
