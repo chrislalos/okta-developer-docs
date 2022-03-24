@@ -380,7 +380,7 @@ Provides two name-value pairs, one for identifying the subject user to authentic
 
 #### data.action
 
-The current default action that Okta takes if your external service sends an empty HTTP 204 response. You can override the default action by returning a `commands` object in your response specifying the action to take.
+The current default action that Okta takes if your external service sends an empty HTTP 204 response. You can override the default action by returning a `commands` object in your response that specifies the action to take.
 
 ### Objects in the response you send
 
