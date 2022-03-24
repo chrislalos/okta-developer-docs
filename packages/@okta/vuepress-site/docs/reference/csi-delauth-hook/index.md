@@ -246,7 +246,7 @@ Another example for the situation when the specified user doesn't exist in the s
 ##### com.okta.appUser.profile.update
 ###### value
 
-For the `com.okta.appUser.profile.update` command, `value` should be an object containing a list of properties for the user profile, for example:
+For the `com.okta.appUser.profile.update` command, `value` should be an object that contains a list of properties for the user profile, for example:
 
 ```json
     {
