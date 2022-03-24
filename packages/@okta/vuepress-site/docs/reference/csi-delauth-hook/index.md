@@ -81,7 +81,7 @@ The following command is supported for the delegated authentication request:
 
 The `value` object is the parameter to pass to the command. For the `com.okta.action.update` command, `value` should be an object that contains a `credential` property set to one of the following values:
 
-- `VERIFIED`: The user is authenticated successfully
+- `VERIFIED`: The user is authenticated successfully.
 - `UNVERIFIED`: The user fails to authenticate due to invalid credentials
 - `ACCOUNT_LOCKED`: The user account is locked
 - `ACCOUNT_DISABLED`: The user account is disabled
