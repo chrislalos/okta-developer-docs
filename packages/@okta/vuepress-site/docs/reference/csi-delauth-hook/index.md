@@ -35,7 +35,7 @@ The following sections describe each of these operations and the objects in thei
 
 To support user lifecycle and credential lifecycle operations, we expect the external source to provide certain attributes:
 
-- `status`: The status of the user, with a value of ACTIVE or DISABLED.
+- `status`: The status of the user, with a value of ACTIVE or DISABLED
 - `passwordExpiryTime`: The time when the user's password expires, in the form of Epoch time.
 - `lastUpdate`: When the user's profile was last updated in the external source, in the form of Epoch time.
 
