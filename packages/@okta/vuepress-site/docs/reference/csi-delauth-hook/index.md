@@ -217,7 +217,7 @@ For the `com.okta.action.update` command, `value` should be an object that conta
 - `UNKNOWN_USER`: The user doesn't exist in the source.
 - `FAILED`: The operation failed and the detailed cause is in the error object.
 
-For example, to indicate that the profile is fetched successfully you would return:
+For example, to indicate that the profile is fetched successfully, you would return:
 
 ```json
 {
