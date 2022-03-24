@@ -419,7 +419,7 @@ Or `value` should be an object that contains an `appUser.profile` property set t
 - `FETCHED`: The user is authenticated successfully and the profile is fetched successfully.
 - `FAILED`: The operation failed and the detailed cause is in the error object.
 
-For example to indicate that the user authenticates successfully and the profile is fetched successfully, you would return:
+For example, to indicate that the user authenticates successfully and the profile is fetched successfully, you would return:
 
 ```json
 {
