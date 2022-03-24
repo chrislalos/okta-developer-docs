@@ -414,7 +414,7 @@ For the `com.okta.action.update` command, `value` should be an object that conta
 - `PASSWORD_EXPIRED`: The user password is expired.
 - `UNKNOWN_USER`: The user doesn't exist in the source.
 
-or an object containing an `appUser.profile` property set to one of the following values:
+Or `value` should be an object that contains an `appUser.profile` property set to one of the following values:
 
 - `FETCHED`: The user is authenticated successfully and the profile is fetched successfully`
 - `FAILED`: The operation failed and the detailed cause is in the error object
