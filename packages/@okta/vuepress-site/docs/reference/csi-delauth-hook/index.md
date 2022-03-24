@@ -84,7 +84,7 @@ The `value` object is the parameter to pass to the command. For the `com.okta.ac
 - `VERIFIED`: The user is authenticated successfully.
 - `UNVERIFIED`: The user fails to authenticate due to invalid credentials.
 - `ACCOUNT_LOCKED`: The user account is locked.
-- `ACCOUNT_DISABLED`: The user account is disabled
+- `ACCOUNT_DISABLED`: The user account is disabled.
 - `PASSWORD_EXPIRED`: The user password has expired
 - `UNKNOWN_USER`: The user does not exist in the source
 
